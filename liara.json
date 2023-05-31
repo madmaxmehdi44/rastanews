@@ -14,7 +14,7 @@
       },
       {
         "name": "temp",
-        "mountTo": "/.tmp"
+        "mountTo": ".tmp"
       }
     ]
   }
