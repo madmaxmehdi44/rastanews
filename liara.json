@@ -1,0 +1,20 @@
+{
+   
+    "platform": "node",
+    "port": 8000,
+    "disks": [
+      {
+        "name": "rastadis",
+        "mountTo": "public"
+      }
+      ,
+      {
+        "name": "static",
+        "mountTo": "dist"
+      },
+      {
+        "name": "temp",
+        "mountTo": "/.tmp"
+      }
+    ]
+  }
